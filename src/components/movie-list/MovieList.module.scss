@@ -1,0 +1,36 @@
+.form {
+	display: flex;
+	margin-bottom: 40px;
+	flex-direction: column;
+	border: 1px #344756 solid;
+
+	> img {
+		align-self: center;
+		width: 250px;
+	}
+
+	> div {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	> .rating {
+		color: yellow;
+		position: absolute;
+	}
+
+	> button {
+		max-width: 200px;
+		padding: 7px 10px;
+	}
+}
+
+.title {
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+.descr {
+	opacity: 0.3;
+}
